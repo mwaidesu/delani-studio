@@ -12,3 +12,7 @@
   background-image: url("../assets/backgrounds/s_image.jpg");
   height: 50vh;
 }
+
+.what-we-do{
+  display: flex;
+}
