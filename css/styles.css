@@ -48,7 +48,18 @@
 }
 
 .what-we-do{
+  text-align: center;
+  padding: 55px;
+}
+
+.what-we-do-div{
   display: flex;
+  justify-content: space-between;
+}
+
+.what-text{
+  display: flex;
+  justify-content: space-between;
 }
 
 .contacts{
