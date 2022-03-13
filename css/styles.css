@@ -4,8 +4,31 @@
 }
 .first{
   background-image:url("../assets/backgrounds/h_img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh;
   text-align: center;
+  position: relative;
+}
+
+.first-div{
+  color: #ffffff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 180px;
+}
+
+.first-div h1{
+  padding: 20px;
+}
+.first-second-div{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 25px;
 }
 
 .services{
@@ -20,4 +43,6 @@
 .contacts{
   background-image: url("../assets/backgrounds/c_image.jpg");
 }
-
+.icons{
+  padding: 30px;
+}
