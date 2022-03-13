@@ -31,9 +31,20 @@
   padding: 25px;
 }
 
+.about{
+  text-align: center;
+  padding: 30px;
+}
+
 .services{
   background-image: url("../assets/backgrounds/s_image.jpg");
-  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 55vh;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 7%;
+
 }
 
 .what-we-do{
