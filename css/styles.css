@@ -62,6 +62,15 @@
   justify-content: space-between;
 }
 
+.portfolio{
+  text-align: center;
+}
+
+.portfolio img{
+  width: 100%;
+  padding: 20px;
+}
+
 .contacts{
   background-image: url("../assets/backgrounds/c_image.jpg");
 }
