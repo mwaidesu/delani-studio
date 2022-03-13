@@ -1,6 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Raleway:wght@500&display=swap");
+
 * {
   margin: 0px;
   padding: 0px;
+  font-family: "Bree Serif", serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .first {
@@ -49,17 +53,9 @@
 
 .what-we-do {
   text-align: center;
-  padding: 55px;
 }
-
-.what-we-do-div {
-  display: flex;
-  justify-content: space-between;
-}
-
-.what-text {
-  display: flex;
-  justify-content: space-between;
+.what-we-do .col{
+  padding: 60px;
 }
 
 .portfolio {
@@ -81,17 +77,19 @@
   color: #ffffff;
 }
 
-form input, textarea{
- background-color: transparent;
- border: 1px solid white;
- margin: 20px;
- color: #fff;
-}
-
-input::placeholder, textarea::placeholder{
+form input,
+textarea {
+  background-color: transparent;
+  border: 1px solid white;
+  margin: 20px;
   color: #fff;
 }
-input{
+
+input::placeholder,
+textarea::placeholder {
+  color: #fff;
+}
+input {
   width: 500px;
 }
 .icons {
