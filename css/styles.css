@@ -1,9 +1,10 @@
-*{
+* {
   margin: 0px;
   padding: 0px;
 }
-.first{
-  background-image:url("../assets/backgrounds/h_img.jpg");
+
+.first {
+  background-image: url("../assets/backgrounds/h_img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -11,7 +12,7 @@
   position: relative;
 }
 
-.first-div{
+.first-div {
   color: #ffffff;
   position: absolute;
   bottom: 0;
@@ -20,10 +21,10 @@
   padding: 180px;
 }
 
-.first-div h1{
+.first-div h1 {
   padding: 20px;
 }
-.first-second-div{
+.first-second-div {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -31,12 +32,12 @@
   padding: 25px;
 }
 
-.about{
+.about {
   text-align: center;
   padding: 30px;
 }
 
-.services{
+.services {
   background-image: url("../assets/backgrounds/s_image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -44,36 +45,55 @@
   text-align: center;
   color: #ffffff;
   padding-top: 7%;
-
 }
 
-.what-we-do{
+.what-we-do {
   text-align: center;
   padding: 55px;
 }
 
-.what-we-do-div{
+.what-we-do-div {
   display: flex;
   justify-content: space-between;
 }
 
-.what-text{
+.what-text {
   display: flex;
   justify-content: space-between;
 }
 
-.portfolio{
+.portfolio {
   text-align: center;
 }
 
-.portfolio img{
+.portfolio img {
   width: 100%;
   padding: 20px;
 }
 
-.contacts{
+.contacts {
   background-image: url("../assets/backgrounds/c_image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 75vh;
+  text-align: center;
+  padding-top: 70px;
+  color: #ffffff;
 }
-.icons{
+
+form input, textarea{
+ background-color: transparent;
+ border: 1px solid white;
+ margin: 20px;
+ color: #fff;
+}
+
+input::placeholder, textarea::placeholder{
+  color: #fff;
+}
+input{
+  width: 500px;
+}
+.icons {
   padding: 30px;
 }
