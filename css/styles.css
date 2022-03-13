@@ -16,3 +16,8 @@
 .what-we-do{
   display: flex;
 }
+
+.contacts{
+  background-image: url("../assets/backgrounds/c_image.jpg");
+}
+
