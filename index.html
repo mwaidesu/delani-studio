@@ -110,13 +110,13 @@
 
     <div class="contacts">
       <h2>CONTACT US</h2>
-      <form action="">
+      <form action="" onsubmit="submitForm()" method="get">
         <span>
-          <input type ="text" placeholder = "Name...">
-          <input type ="email" placeholder = "Email...">
+          <input type ="text" placeholder = "Name..." id="name" required>
+          <input type ="email" placeholder = "Email..." id="email" required>
         </span>
         <div>
-          <textarea name="" id="" cols="80" rows="10" placeholder="Your message here..."></textarea>
+          <textarea name="" id="" cols="80" rows="10" id="message" placeholder="Your message here..." required></textarea>
         </div>
       </form>
     </div>
@@ -139,5 +139,8 @@
         <div><p>2022</p></div>
       </footer>
     </div>
+
+
+    <script src="js/scripts.js"></script>
   </body>
 </html>
