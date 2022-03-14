@@ -95,3 +95,13 @@ input {
 .icons {
   padding: 30px;
 }
+
+#hoverdiv{
+  display: none;
+  background: #fff;
+  position: absolute;
+  font-size: 18px;
+  color: black;
+  border: 1px solid gray;
+  padding: 10px;
+}
