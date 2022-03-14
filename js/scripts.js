@@ -20,13 +20,32 @@ function checkSubmit(e) {
   }
 } */
 
-
+//user interface logic
+//hover
 $(".port-img").mousemove(function(e) {
   var hovertext = $(this).attr("hovertext");
-  $(this).css("border", "2px solid grey","border","10px solid white" );
+  $(this).css("border", "2px solid grey","border","11px solid white" );
 
   $("#hoverdiv").text(hovertext).show().offset($(this).offset());
 }).mouseout(function() {
   $(this).css("border", "none");
   $('#hoverdiv').hide()
-})
+});
+
+//what we do toggle
+
+  /* $("#what-1").click(function(){
+    $(".what-description").hide();
+  });
+  $("#what-1").click(function(){
+    $(".what-description").show().offset($(this).offset());
+  }); */
+
+  $("#what-1").click(function(){  
+    $("#description1").slideToggle("slow");});
+
+  $("#what-2").click(function(){  
+    $("#description2").slideToggle("slow");});
+
+  $("#what-3").click(function(){  
+    $("#description3").slideToggle("slow");});

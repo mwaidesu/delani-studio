@@ -58,6 +58,14 @@
   padding: 60px;
 }
 
+#what-1, #what-2, #what-3{
+  text-align: center;
+}
+
+#description1, #description2, #description3{
+  display: none;
+}
+
 .portfolio {
   text-align: center;
 }
@@ -105,3 +113,5 @@ input {
   border: 1px solid gray;
   padding: 10px;
 }
+
+
