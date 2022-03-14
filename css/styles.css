@@ -79,17 +79,26 @@
   background-image: url("../assets/backgrounds/c_image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 70px;
   color: #ffffff;
+  
 }
 
 form input,
 #mce-MMERGE2{
   background-color: transparent;
   border: 1px solid white;
-  margin: 20px;
-  color: #fff;}
+  color: #fff;
+}
 
+#mce-NAME, #mce-EMAIL{
+  width: 70%!important;
+}
+
+#mce-MMERGE2{
+  height: 300px;
+  width: 60%!important;
+  margin: auto;
+}
 .icons {
   padding: 30px;
 }
