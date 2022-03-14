@@ -75,31 +75,21 @@
   padding: 20px;
 }
 
-.contacts {
+#mc_embed_signup{
   background-image: url("../assets/backgrounds/c_image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 75vh;
-  text-align: center;
   padding-top: 70px;
   color: #ffffff;
 }
 
 form input,
-textarea {
+#mce-MMERGE2{
   background-color: transparent;
   border: 1px solid white;
   margin: 20px;
-  color: #fff;
-}
+  color: #fff;}
 
-input::placeholder,
-textarea::placeholder {
-  color: #fff;
-}
-input {
-  width: 500px;
-}
 .icons {
   padding: 30px;
 }

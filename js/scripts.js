@@ -25,8 +25,8 @@ function checkSubmit(e) {
 $(".port-img").mousemove(function(e) {
   var hovertext = $(this).attr("hovertext");
   $(this).css("border", "2px solid grey","border","11px solid white" );
-
   $("#hoverdiv").text(hovertext).show().offset($(this).offset());
+
 }).mouseout(function() {
   $(this).css("border", "none");
   $('#hoverdiv').hide()
