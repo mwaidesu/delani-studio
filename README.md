@@ -8,6 +8,7 @@ A website that showcases who Delani Studios is and what they do, photos and desc
 - HTML & CSS (Bootstrap)
 - JavaScript (jQuery 3.4.1)
 - Google Fonts
+- Mailchimp API
 
 ##### Requirements
 
@@ -58,7 +59,7 @@ If you find a bug (the website couldn't handle the query and or gave undesired r
 If you'd like to request a new function, feel free to do so by opening an issue here. Please include sample queries and their corresponding results.
 
 
-##### Link to Live Site : []()
+##### Link to Live Site : [https://mwaidesu.github.io/delani-studio/](https://mwaidesu.github.io/delani-studio/)
 
 ### License
 
